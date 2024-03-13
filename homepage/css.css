@@ -111,12 +111,14 @@ body{
   text-decoration: none;
   font-size: 17px;
   max-width:100px;
+  width: 78.75px;
 }
 
 .navbar a:hover {
   background: #ddd;
   color: black;
   border-radius: 5px;
+  width: 78.75px;
 }
 
 .title{
