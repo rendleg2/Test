@@ -1,16 +1,16 @@
 * {
   box-sizing:border-box;
   margin: 0px;
-  background-color: lightblue;
+  background-color: rgb(54, 126, 241);
 }
 
 body{
-  margin-top: 48.67px;
+  margin-top: 50px;
 }
 
 .MYnavbar {
   /* overflow: hidden; */
-  background-color: #333;
+  background-color: #fa2e0e;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -19,11 +19,11 @@ body{
   justify-content: space-around;
   padding-left: 20%;
   padding-right: 20%;
-  height: 48.67px;
+  height: 50px;
 }
 
 .MYnavbar a { 
-  background-color: #333;
+  background-color: #fa2e0e;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,7 +38,7 @@ body{
 }
 
 .MYnavbar a:hover {
-  background: #ddd;
+  background: #C5C6D0;
   color: black;
   border-radius: 5px;
   width: 78.75px;
@@ -48,7 +48,7 @@ body{
 
 .MYtitle{
   color: white;
-  background-color: #333;
+  background-color: #fa2e0e;
 }
 
 .textbox {
