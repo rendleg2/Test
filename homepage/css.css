@@ -56,9 +56,9 @@ body{
   justify-content: center;
 }
 
-.carousel {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+div#carouselExampleAutoplaying {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 10px solid rgb(54, 126, 241);
 }
