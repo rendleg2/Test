@@ -1,7 +1,6 @@
 * {
   box-sizing:border-box;
   margin: 0px;
-  background-color: rgb(54, 126, 241);
 }
 
 body{
@@ -59,6 +58,13 @@ body{
 div#carouselExampleAutoplaying {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
   border: 10px solid rgb(54, 126, 241);
+}
+
+.c {
+  background-color: rgb(54, 126, 241);
+}
+.d{
+  background-color: #333;
+  border: #333 5px solid;
 }
