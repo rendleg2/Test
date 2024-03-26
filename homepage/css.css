@@ -68,3 +68,10 @@ div#carouselExampleAutoplaying {
   background-color: #333;
   border: #333 5px solid;
 }
+
+.h {
+  background-color: rgba(100, 100, 100, 0.418); 
+  padding: 5px;
+  background-size: 50px 100px;
+  background-repeat: no-repeat;
+}
