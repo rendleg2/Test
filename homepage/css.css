@@ -50,9 +50,17 @@ body{
   background-color: #fa2e0e;
 }
 
-.textbox {
+.ctitle {
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: solid;
+  border-radius: 5px;
+  border-color: #333;
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
 }
 
 div#carouselExampleAutoplaying {
@@ -70,8 +78,32 @@ div#carouselExampleAutoplaying {
 }
 
 .h {
-  background-color: rgba(100, 100, 100, 0.418); 
+  background-color: rgba(100, 100, 100, 0.678); 
   padding: 5px;
   background-size: 50px 100px;
-  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  border-radius: 5px; 
+}
+
+.a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  max-width:100px;
+  border-radius: 5px;
+}
+
+.a:hover {
+  background: #C5C6D0;
+  color: black;
+  border-radius: 5px;
+  transform: scale(0.9);
+  transition: all 0.5s ease-in-out;
 }

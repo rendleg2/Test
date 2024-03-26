@@ -85,12 +85,14 @@ body{
     text-decoration: none;
     margin: 5px;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .server a:hover{
     background: #ddd;
     color: black;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -98,4 +100,33 @@ body{
     display:flex;
     justify-content: center;
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+     
+::-webkit-scrollbar { 
+    width: 10px; 
+} 
+
+::-webkit-scrollbar-track { 
+    background: #f1f1f1; 
+} 
+
+::-webkit-scrollbar-thumb { 
+    background: #888; 
+} 
+
+::-webkit-scrollbar-thumb:hover { 
+    background: #555; 
+} 
+  
+.scroll { 
+    display: block; 
+    border: 5px solid #fa2e0e; 
+    border-radius: 5px;
+    padding: 5px; 
+    margin-top: 5px; 
+    width: 300px; 
+    height: 300px; 
+    overflow-y: scroll; 
+} 
