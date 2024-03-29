@@ -61,16 +61,14 @@ body{
     margin-top: 10%;
 }
 
-.years {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
 
-.year11 {
+
+.year11, .years {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: center ;
+    margin-top: 0px;
 }
 
 .server a {
@@ -102,6 +100,10 @@ body{
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
+    padding: 5px;
+    border: #fa2e0e solid 5px;
+    border-radius: 5px;
 }
      
 ::-webkit-scrollbar { 
@@ -123,10 +125,12 @@ body{
 .scroll { 
     display: block; 
     border: 5px solid #fa2e0e; 
-    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     padding: 5px; 
-    margin-top: 5px; 
+    margin-top: 0px; 
     width: 300px; 
     height: 300px; 
     overflow-y: scroll; 
+    border-top: none;
 } 
