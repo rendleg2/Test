@@ -135,3 +135,12 @@ body{
     overflow-y: scroll; 
     border-top: none;
 } 
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#y11 {
+    background-color: #C5C6D0;
+}
