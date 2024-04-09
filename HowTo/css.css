@@ -1,26 +1,25 @@
+/* max width */
 * {
   max-width: 100vw;
 }
-  
+/* backrond color for hole page */
 .body {
     background-color: rgb(54, 126, 241);
 }
 
+/* Navbar styiling */
+.nav-link:hover {
+  background-color: rgb(36, 80, 150);
+  border: white solid 1px;
+}
+
+/* overriding some bootstrap styling to fit my needs */
 .container-fluid{
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
-.howTo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 20%;
-    margin-left: 20%;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+/* imges styleing */
 
 .img {
     width: 400px;
@@ -30,6 +29,8 @@
     margin: 10px;
 
 }
+ 
+/* alternating imges and text */
 
 .left {
     width: 100%;
@@ -51,6 +52,7 @@
     margin-right: auto;
 }
 
+/* adds a small border around the acordions */
 .MOVE {
   margin: 1.25%;
 }

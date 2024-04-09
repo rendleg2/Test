@@ -6,11 +6,17 @@ body{
   background-color: rgb(54, 126, 241);
 }
 
+/* Navbar styiling */
+.nav-link:hover {
+  background-color: rgb(36, 80, 150);
+  border: white solid 1px;
+}
+/* overriding some bootstrap styling to fit my needs */
 .container-fluid{
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
-
+/* title for corse outline */
 .ctitle {
   font-size: 50px;
   font-weight: bold;
@@ -24,13 +30,13 @@ body{
   width: 80%;
   height: 10%;
 }
-
+/* adds border around carousel */
 div#carouselExampleAutoplaying {
   margin-left: auto;
   margin-right: auto;
   border: 10px solid rgb(54, 126, 241);
 }
-
+/* googleSlides embed styiling */
 .CourseOutline {
   height: 100vh;
   width: 100%;
@@ -40,17 +46,18 @@ div#carouselExampleAutoplaying {
   flex-wrap: wrap;
   align-content: flex-start;
 }
-
+/* highlight the carousel text */
 .highlight {
   background-color: rgba(100, 100, 100, 0.678); 
   padding: 5px;
-  background-size: 50px 100px;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
   border-radius: 5px; 
 }
 
+
+/* carousel link to website Buttons */
 .carouselButtons {
   display: flex;
   flex-wrap: wrap;
@@ -71,7 +78,7 @@ div#carouselExampleAutoplaying {
   transform: scale(0.9);
   transition: all 0.5s ease-in-out;
 }
-
+/* seproating the slide from the title */
 .slides {
   margin-top: 10px;
 }
