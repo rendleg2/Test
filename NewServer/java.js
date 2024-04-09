@@ -16,18 +16,3 @@ function loadClassYearIframe(classYearCode,classYearTitle)
   // alert(classUrl);
   document.getElementById("classiframe").src = classUrl;
 }
-
-document.querySelectorAll('.btn').forEach((button) => { // Class of the buttons that trigger the untoggle
-  button.addEventListener("click", (e) => {
-      let buttons = document.querySelectorAll('.btn'); // Select all buttons with class 'btn'
-      buttons.forEach((btn) => {
-          if (btn !== e.target) { // Exclude the button that was clicked
-              let bsButton = new bootstrap.Button(btn);
-              if (bsButton._element.classList.contains('active')) { // If the button is active
-                  bsButton.toggle(); // Untoggle the button
-              }
-          }
-      });
-  });
-});
-
