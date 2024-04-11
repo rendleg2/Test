@@ -25,6 +25,7 @@ body{
 .btnYear{
     margin-left: 20px;
     padding-left: 8px !important;
+    width: 100px;
 }
 
 .btn-outline-light {
